@@ -118,7 +118,7 @@ while nr_dzialania != 7:
             # co zrobic zeby kazda podana liczba po zatwierdzeniu enterem zapisywalo sie do pliku?
             # co zrobic zeby do pliku zapisywalo sie cale dzialanie czyli np 3 * 4 = 12 ?
 
-plik = open('../kalkulator_wyniki.txt', 'w+')
+plik = open('D://Python/Moje projekty/calculator/kalkulator_wyniki.txt', 'w+')
 for i in range(len(lista_wynikow)):
     plik.write(str(lista_wynikow[i]) + '\n')
 plik.close()
